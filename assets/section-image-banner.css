@@ -366,7 +366,6 @@
 }
 
 .banner__box > * + .banner__text {
-  width: 350px;
   margin: auto;
   margin-top: 1.5rem;
 }
