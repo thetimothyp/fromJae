@@ -2412,27 +2412,27 @@ input[type='checkbox'] {
 }
 
 /* Search */
-menu-drawer + .header__search {
+/* menu-drawer + .header__search {
   display: none;
-}
+} */
 
-.header > .header__search {
+/* .header > .header__search {
   grid-area: left-icon;
   justify-self: start;
-}
+} */
 
-.header:not(.header--has-menu) * > .header__search {
+/* .header:not(.header--has-menu) * > .header__search {
   display: none;
-}
+} */
 
 .header__search {
   display: inline-flex;
   line-height: 0;
 }
 
-.header--top-center > .header__search {
+/* .header--top-center > .header__search {
   display: none;
-}
+} */
 
 .header--top-center * > .header__search {
   display: inline-flex;
@@ -2444,10 +2444,10 @@ menu-drawer + .header__search {
     display: inline-flex;
   }
 
-  .header:not(.header--top-center) > .header__search,
+  /* .header:not(.header--top-center) > .header__search,
   .header--top-center * > .header__search {
     display: none;
-  }
+  } */
 }
 
 .no-js .predictive-search {
