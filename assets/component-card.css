@@ -133,6 +133,24 @@
   justify-self: flex-end;
 }
 
+.card__badge.bottom.fill {
+  position: absolute;
+  width: 100%;
+  border-bottom-left-radius: var(--card-corner-radius);
+  border-bottom-right-radius: var(--card-corner-radius);
+  overflow: hidden;
+}
+
+.card__badge.bottom.fill > .badge {
+  width: 100%;
+  border-radius: 0;
+  padding: 1rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  background-color: #3A3D42;
+  border: none;
+}
+
 .card > .card__content > .card__badge {
   margin: 1.3rem;
 }

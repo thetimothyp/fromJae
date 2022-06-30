@@ -76,6 +76,9 @@
           "options__4": {
             "label": "Top right"
           },
+          "options__5": {
+            "label": "Bottom fill"
+          },
           "label": "Product card position"
         },
         "sale_badge_color_scheme": {
