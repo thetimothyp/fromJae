@@ -319,7 +319,7 @@
                  
                   
                   
-                  <select name="sort_by" class=" custom-select sources"  id="SortBy" aria-describedby="a11y-refresh-page-message" placeholder="Category">
+                  <select name="sort_by" class=" custom-select sources"  id="SortBy" aria-describedby="a11y-refresh-page-message" style="visibility: hidden;" placeholder="Featured">
    {%- for option in collection.sort_options -%}{% unless  option.value == 'title-descending' or option.value == 'title-ascending' or option.value=='best-selling' %}
                         <option value="{{ option.value }}" {% if option.value == sort_by %}selected="selected"{% endif %}>{{ option.name }}</option>
                       {% endunless %}

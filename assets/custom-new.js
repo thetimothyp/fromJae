@@ -27,8 +27,10 @@ $(".custom-select-trigger").on("click", function() {
   $(this).parents(".custom-select").toggleClass("opened");
   event.stopPropagation();
 });
-$(".custom-option").on("click", function() {
-  $(this).parents(".custom-select-wrapper").find("select").val($(this).data("value"));
+$(".custom-option").on("click", function(e) {
+  const val = $(this).data("value");
+  $(this).parents(".custom-select-wrapper").find("select").val(val);
+  $(this).parents(".custom-select-wrapper").find("select").trigger('change');
   $(this).parents(".custom-options").find(".custom-option").removeClass("selection");
   $(this).addClass("selection");
   $(this).parents(".custom-select").removeClass("opened");
