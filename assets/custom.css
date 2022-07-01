@@ -63,6 +63,7 @@
     visibility: hidden;
     pointer-events: none;
     width: max-content;
+    transition: opacity 0.5s ease;
   }
   .custom-select.opened .custom-options {
     opacity: 1;
@@ -70,6 +71,9 @@
     pointer-events: all;
     transform: translateY(0);
     z-index: 999;
+    margin-top: 8px;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
+    border-radius: 8px;
   }
     .custom-options:before {
       position: absolute;
@@ -90,12 +94,11 @@
     .custom-option {
        position: relative;
     display: block;
-    padding: 7px 14px;
+    padding: 12px;
     font-size: 1.4rem;
     color: #000;
     cursor: pointer;
-    padding-left: 0;
-
+    transition: background-color 0.5s ease;
     }
     .custom-option:first-of-type {
       border-radius: 4px 4px 0 0;
@@ -106,7 +109,7 @@
     }
     .custom-option:hover
      {
-      background: #ffc0cb38;
+      background: #F3EBEB;
     }
 
 .custom-option.selection {
