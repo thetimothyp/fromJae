@@ -1086,6 +1086,12 @@
         "id": "social_vimeo_link",
         "label": "t:settings_schema.social-media.settings.social_vimeo_link.label",
         "info": "t:settings_schema.social-media.settings.social_vimeo_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_twitch_link",
+        "label": "t:settings_schema.social-media.settings.social_twitch_link.label",
+        "info": "t:settings_schema.social-media.settings.social_twitch_link.info"
       }
     ]
   },
