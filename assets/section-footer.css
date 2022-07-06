@@ -178,7 +178,7 @@
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 0;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .footer-block__newsletter > .footer-block__heading {
@@ -187,7 +187,7 @@
 
 @media screen and (min-width: 990px) {
   .footer-block__heading {
-     font-size: 17px;
+     font-size: 16px;
   }
 }
 

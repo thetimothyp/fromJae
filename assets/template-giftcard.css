@@ -153,7 +153,7 @@ h2,
 }
 
 .button--secondary:hover {
-  box-shadow: 0 0 0 0.2rem rgb(var(--color-base-outline-button-labels));
+  /* box-shadow: 0 0 0 0.2rem rgb(var(--color-base-outline-button-labels)); */
 }
 
 .gift-card {
