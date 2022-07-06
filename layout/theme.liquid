@@ -288,7 +288,12 @@
       }
 
       .button:hover {
-        opacity: 0.5;
+        opacity: 0.8;
+      }
+
+      .button--secondary:hover {
+        opacity: 1;
+        background-color: #F3EBEB;
       }
 
       .underline-links-hover:hover a {
@@ -389,6 +394,10 @@ svg.modal__toggle-open.icon.icon-search, svg.icon.icon-cart-empty {
       .button:not([disabled]):hover::after, .shopify-challenge__button:hover::after, .customer button:hover::after, .shopify-payment-button__button--unbranded:hover::after {
      --border-offset: unset; 
     box-shadow: unset;
+}
+
+.button--secondary:not([disabled]):hover::after {
+  box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)),0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button),var(--alpha-button-background));
 }
       svg.icon.icon-cart-empty:hover, svg.modal__toggle-open.icon.icon-search:hover {
     color: #b7798c;

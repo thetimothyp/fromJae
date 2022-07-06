@@ -599,4 +599,9 @@ noscript .localization-selector.link {
   margin-top: 1px;
   margin-left: 6px;
   text-transform: uppercase;
+  transition: opacity 0.2s ease;
+}
+
+.newsletter-footer__button.field__button:hover {
+  opacity: 0.8;
 }
