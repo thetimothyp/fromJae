@@ -82,6 +82,14 @@
       </aside>
     {%- endif -%}
 
+    {%- if section.settings.banner_text != blank -%}
+    <div class="page-banner-wrapper">
+      <div class="page-banner">
+        {{- section.settings.banner_text -}}
+      </div>
+    </div>
+    {%- endif -%}
+
     <div class="product-grid-container{% if section.settings.filter_type == 'vertical' and section.settings.collapse_on_larger_devices %} product-grid-container-vertical{% endif %}" id="ProductGridContainer">
       {%- paginate collection.products by section.settings.products_per_page -%}
         {%- if collection.products.size == 0 -%}
@@ -159,6 +167,11 @@
     {
       "type": "header",
       "content": "t:sections.main-collection-product-grid.settings.header__3.content"
+    },
+    {
+      "type": "text",
+      "id": "banner_text",
+      "label": "Banner Text"
     },
     {
       "type": "select",
