@@ -259,6 +259,8 @@ fieldset.product-form__input .form__label {
 
 .product-form__submit {
   margin-bottom: 1rem;
+  border: 1px solid #A5586F;
+  text-transform: uppercase;
 }
 
 .no-js .product-form__submit.button--secondary {
@@ -337,10 +339,6 @@ a.product__text {
   margin-top: 0;
 }
 
-.product__accordion .accordion__content {
-  padding: 0 1rem;
-}
-
 .product .price .badge {
   margin-bottom: 0.5rem;
 }
@@ -380,11 +378,6 @@ a.product__text {
 
 .product__description-title {
   font-weight: 600;
-}
-
-.product__description h3 {
-  font-weight: 600;
-  margin: 2px;
 }
 
 .product--no-media .product__title,
@@ -589,6 +582,8 @@ a.product__text {
 
 .product__modal-opener--image .product__media-toggle:hover {
   cursor: zoom-in;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .product__modal-opener:hover .product__media-icon {
@@ -625,6 +620,8 @@ a.product__text {
 .product__media-item > * {
   display: block;
   position: relative;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .product__media-toggle {
@@ -1019,6 +1016,8 @@ a.product__text {
 
   .product__modal-opener {
     width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
   }
 
   .thumbnail-slider {
