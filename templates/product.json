@@ -62,9 +62,9 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "{{ shop.shipping_policy.body }}",
+            "heading": "SHIPPING & PROCESSING",
+            "icon": "none",
+            "content": "<p><strong>Processing Time<\/strong><\/p><p>2-3 weeks<\/p><p>Because of the nature of our small business, we often have 1-2 people working on orders. Please be patient as we prep your packages!<\/p><p><\/p><p><strong>Return & Exchange<\/strong><\/p><p>Due to low-volume and COVID-19 difficulties, we will not be accepting returns.<\/p><p><br\/>A 1-time size exchange will be available for each purchase at your own shipping cost. Please message me so to purchase 2 shipping slips for return and exchange.<\/p>",
             "page": ""
           }
         },
