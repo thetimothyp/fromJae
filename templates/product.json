@@ -64,7 +64,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "{{ shop.shipping_policy.body }}",
             "page": ""
           }
         },
