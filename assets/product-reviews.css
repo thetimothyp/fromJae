@@ -1,0 +1,39 @@
+#shopify-product-reviews i {
+  color: #A5586F;
+}
+
+.spr-header-title {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.spr-review-header-byline {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.spr-summary.rte {
+  position: relative;
+}
+
+.spr-summary-actions {
+  position: absolute;
+  right: 0;
+  top: -50%;
+  transform: translateY(50%);
+}
+
+.spr-summary-actions-newreview {
+  border: 1.5px solid #A5586F;
+  padding: 6px 42px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 6px;
+  font-size: 1.4rem;
+}
+
+.spr-review-reportreview {
+  text-decoration: none;
+  font-weight: 500;
+}
