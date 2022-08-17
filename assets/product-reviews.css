@@ -8,20 +8,50 @@
   font-weight: 500;
 }
 
+.spr-form-title {
+  font-weight: 600;
+}
+
+fieldset.spr-form-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+}
+
+.spr-form-input-text, .spr-form-input-email, .spr-form-input-textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #9BA0AA;
+}
+
+.spr-form-input-text::placeholder, .spr-form-input-text-email::placeholder, .spr-form-input-textarea::placeholder {
+  color: #9BA0AA;
+}
+
+.spr-form-input-textarea {
+  font-family: 'Avenir Next', sans-serif;
+  resize: none;
+}
+
+.spr-form-contact-name {
+  grid-column-start: 1;
+  margin-right: 48px;
+}
+
 .spr-review-header-byline {
   font-style: normal;
   font-weight: 600;
 }
 
-.spr-summary.rte {
+.spr-header {
   position: relative;
 }
 
 .spr-summary-actions {
   position: absolute;
   right: 0;
-  top: -50%;
-  transform: translateY(50%);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .spr-summary-actions-newreview {
@@ -36,4 +66,20 @@
 .spr-review-reportreview {
   text-decoration: none;
   font-weight: 500;
+}
+
+.spr-button-primary {
+  border-radius: 8px;
+  padding: 12px 48px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.spr-form-review-rating .spr-form-input.spr-starrating .spr-icon::before {
+  color: #A5586F;
+  font-size: 22px;
+}
+
+.spr-form-review-rating .spr-form-input.spr-starrating .spr-icon {
+  opacity: 1;
 }
