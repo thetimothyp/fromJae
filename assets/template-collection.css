@@ -78,3 +78,10 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+.collection__preorder-disclaimer {
+  border-radius: 8px;
+  background-color: #F3EBEB;
+  padding: 4rem 10rem;
+  margin: 36px 0;
+}

@@ -279,6 +279,10 @@
       "title": "Collection",
       "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all<\/a>"
     },
+    "collection_preorder_disclaimer": {
+      "p1": "Preorders will have different shipping durations depending on the product. Please read each product description carefully.",
+      "p2": "Raffle sales are hosted through Google Forms. You will receive a link to purchase if you’re chosen in the raffle and will only be charged through that invoice. Signing up for a raffle sale does NOT guarantee your purchase."
+    },
     "video": {
       "load_video": "Load video: {{ description }}"
     },
