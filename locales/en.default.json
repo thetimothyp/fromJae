@@ -108,6 +108,7 @@
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
       "on_sale": "Sale",
+      "preorder_disclaimer": "Each preorder will have a different ship duration depending on the product. Please read each product description carefully.",
       "product_variants": "Product variants",
       "media": {
         "gallery_viewer": "Gallery Viewer",
