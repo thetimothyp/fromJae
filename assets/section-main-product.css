@@ -257,14 +257,14 @@ fieldset.product-form__input .form__label {
   max-width: 25rem;
 }
 
-.product-form__preorder-disclaimer {
+.product-form__disclaimer {
   border-radius: 8px;
   background-color: #F3EBEB;
   padding: 20px 24px;
   margin-bottom: 24px;
 }
 
-.product-form__preorder-disclaimer p {
+.product-form__disclaimer p {
   margin: 0;
 }
 
