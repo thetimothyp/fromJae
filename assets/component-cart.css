@@ -173,6 +173,16 @@ cart-items {
   margin-top: 1rem;
 }
 
+.cart__blocks .totals h3 {
+  font-weight: 600;
+  font-size: 1.9rem;
+}
+
+.cart__blocks .totals p {
+  font-weight: 600;
+  font-size: 1.9rem;
+}
+
 .cart__dynamic-checkout-buttons div[role='button'] {
   border-radius: var(--buttons-radius-outset) !important;
 }
@@ -187,10 +197,14 @@ cart-items {
   margin: 2.2rem 0 1.6rem auto;
   text-align: center;
   display: block;
+  font-size: 1.5rem;
 }
 
 .cart__checkout-button {
   max-width: 36rem;
+  text-transform: uppercase;
+  height: 54px;
+  font-size: 1.7rem;
 }
 
 .cart__ctas {

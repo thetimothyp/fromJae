@@ -21,7 +21,7 @@
             {%- when 'subtotal' -%}
               <div class="js-contents" {{ block.shopify_attributes }}>
                 <div class="totals">
-                  <h3 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h3>
+                  <h3 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}:</h3>
                   <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
                 </div>
 
@@ -39,16 +39,20 @@
                   {%- endif -%}
                 </div>
 
-                <small class="tax-note caption-large rte">
-                  {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+                <!-- Uncomment if you want to link to shipping policy -->
+                <!-- <small class="tax-note caption-large rte"> -->
+                  <!-- {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
                     {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- elsif cart.taxes_included -%}
-                    {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
-                  {%- elsif shop.shipping_policy.body != blank -%}
-                    {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
-                  {%- else -%}
-                    {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
-                  {%- endif -%}
+                    {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }} -->
+                  <!-- {%- elsif shop.shipping_policy.body != blank -%}
+                    {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }} -->
+                  <!-- {%- else -%} -->
+                    <!-- {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }} -->
+                  <!-- {%- endif -%} -->
+                <!-- </small> -->
+                <small class="tax-note caption-large rte">
+                  {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
                 </small>
               </div>
             {%- else -%}
@@ -65,6 +69,9 @@
               </div>
 
               {%- if additional_checkout_buttons -%}
+                <small class="tax-note caption-large rte">
+                  {{ 'sections.cart.other_payment_methods' | t }}
+                </small>
                 <div class="cart__dynamic-checkout-buttons additional-checkout-buttons">
                   {{ content_for_additional_checkout_buttons }}
                 </div>
