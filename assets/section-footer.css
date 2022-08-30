@@ -479,6 +479,11 @@ noscript .localization-selector.link {
     margin-right: 1.5rem;
   }
 }
+
+.copyright__content {
+  font-size: 1.3rem;
+}
+
 /* https://partners.shopify.com/1817352/stores */
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
