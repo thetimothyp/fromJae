@@ -61,6 +61,8 @@
   flex-grow: 1;
   margin-bottom: 0;
   margin-top: 0;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .cart-notification__heading .icon-checkmark {
@@ -80,6 +82,18 @@
 
 .cart-notification__links > * {
   margin-top: 1rem;
+}
+
+#cart-notification-button, #cart-notification-form button {
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+
+.cart-notification__links .link.button-label {
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: normal;
+  margin-top: 20px;
 }
 
 .cart-notification-product {
