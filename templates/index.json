@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "MARCH 2022 UPDATE",
+            "heading": "AUGUST 2022 UPDATE",
             "heading_size": "h2"
           }
         },
         "759be026-53dd-4c15-a559-62cace49b316": {
           "type": "text",
           "settings": {
-            "text": "Artisan keycaps, handmade treasures, and more ❤️",
+            "text": "New stickers, artisan keycaps, and more ❤️",
             "text_style": "body"
           }
         },
@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_8_86a86b86-c52e-4bbc-b3dd-92452fd6feed.png",
+        "image": "shopify:\/\/shop_images\/IMG_0488.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,

@@ -13,14 +13,16 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {}
+          "settings": {
+          }
         },
         "buttons": {
           "type": "buttons",
-          "settings": {}
+          "settings": {
+          }
         }
       },
-      "block_order":[
+      "block_order": [
         "subtotal",
         "buttons"
       ],
@@ -49,5 +51,9 @@
       }
     }
   },
-  "order": ["cart-items","cart-footer","featured-collection"]
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "featured-collection"
+  ]
 }
