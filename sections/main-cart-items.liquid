@@ -28,11 +28,9 @@
   </div>
 
   <div class="cart__warnings">
-    {% if cart == empty %}
     <img src="{{ 'Bored_Froggo.png' | file_img_url: 'large' }}" alt="Image">
-      <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
-      <p>{{ 'sections.cart.empty_message' | t }}</p>
-    {% endif %}
+    <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
+    <p>{{ 'sections.cart.empty_message' | t }}</p>
     <a href="{{ routes.all_products_collection_url }}" class="button">
       {{ 'general.browse_shop' | t }}
     </a>
