@@ -19,10 +19,26 @@ cart-items.is-empty .title-wrapper-with-link,
   display: none;
   text-align: center;
   padding: 3rem 0 1rem;
+  margin-top: 24px;
+}
+
+.cart__warnings .button {
+  text-transform: uppercase;
+  padding: 0 9rem;
+  margin-bottom: 108px;
+}
+
+.cart__warnings p {
+  font-weight: 300;
+  margin-bottom: 5rem;
 }
 
 .cart__empty-text {
   margin: 4.5rem 0 2rem;
+  font-size: 2.5rem;
+  letter-spacing: normal;
+  margin-top: 3rem;
+  margin-bottom: 0;
 }
 
 .cart__contents > * + * {
@@ -44,10 +60,6 @@ cart-items.is-empty .title-wrapper-with-link,
 @media screen and (min-width: 990px) {
   .cart__warnings {
     padding: 7rem 0 1rem;
-  }
-
-  .cart__empty-text {
-    margin: 0 0 3rem;
   }
 }
 
