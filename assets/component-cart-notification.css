@@ -48,7 +48,7 @@
 }
 
 .cart-notification.active {
-  transform: translateY(0);
+  transform: translateY(-15%);
   transition: transform var(--duration-default) ease, visibility 0s;
   visibility: visible;
 }
