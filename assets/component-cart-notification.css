@@ -115,6 +115,11 @@
   display: inline-flex;
   margin-right: 1.5rem;
   margin-top: 0.5rem;
+  border: none !important;
+}
+
+.cart-notification-product__image img {
+  border-radius: 8px !important;
 }
 
 .cart-notification-product__image:after {
