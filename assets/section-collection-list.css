@@ -1,6 +1,11 @@
 .collection-list {
   margin-top: 0;
   margin-bottom: 0;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  list-style: none;
+  padding: 0; */
 }
 
 .collection-list-title {
@@ -25,8 +30,8 @@
 }
 
 .collection-list__item:only-child {
-  max-width: 100%;
-  width: 100%;
+  /* max-width: 100%;
+  width: 100%; */
 }
 
 @media screen and (max-width: 749px) {
