@@ -1,5 +1,14 @@
 .search__input.field__input {
-  padding-right: 5rem;
+  padding: 20px;
+  font-family: 'Avenir Next', sans-serif;
+  box-shadow: none;
+  border-radius: 10px;
+  border: 1px solid #6B7280;
+}
+
+.search__input.field__input::placeholder {
+  color: #6B7280;
+  opacity: 1;
 }
 
 .search__button {

@@ -1695,8 +1695,8 @@ details[open] > .share-button__fallback {
   bottom: var(--inputs-border-width);
   left: var(--inputs-border-width);
   border: 0.1rem solid transparent;
-  box-shadow: 0 0 0 var(--inputs-border-width)
-    rgba(var(--color-foreground), var(--inputs-border-opacity));
+  /* box-shadow: 0 0 0 var(--inputs-border-width)
+    rgba(var(--color-foreground), var(--inputs-border-opacity)); */
   border-radius: var(--inputs-radius);
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
@@ -2114,13 +2114,19 @@ input[type='checkbox'] {
   align-items: center;
   padding: 0rem;
   height: 4.4rem;
-  width: 4.4rem;
+  padding-left: 12px;
   background-color: transparent;
 }
 
 .modal__close-button .icon {
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.modal__close-button__text {
+  text-decoration: none;
+  font-weight: 300;
+  margin-left: 4px;
 }
 
 .modal__content {
@@ -2518,6 +2524,7 @@ details[open] .modal-overlay::after {
 .search-modal__close-button {
   position: absolute;
   right: 0.3rem;
+  text-decoration: none !important;
 }
 
 @media screen and (min-width: 750px) {
