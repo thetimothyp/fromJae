@@ -3,14 +3,10 @@
   position: absolute;
   top: calc(100% + 0.1rem);
   left: -0.1rem;
-  border-width: var(--popup-border-width);
-  border-style: solid;
-  border-color: rgba(var(--color-foreground), var(--popup-border-opacity));
+  border-radius: 10px;
   background-color: rgb(var(--color-background));
   z-index: 3;
-  border-bottom-right-radius: var(--popup-corner-radius);
-  border-bottom-left-radius: var(--popup-corner-radius);
-  box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
+  box-shadow: 0px 2px 10px -2px rgba(43, 53, 78, 0.18);
 }
 
 .predictive-search--search-template {
@@ -50,14 +46,16 @@ predictive-search[loading] .predictive-search {
 }
 
 .predictive-search__heading {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 1px solid #E1E1E1;
   margin: 0 auto;
   padding: 1.5rem 0 0.75rem;
   display: flex;
+  font-size: 1.4rem;
+  color: #6B7280;
+  letter-spacing: normal;
   justify-content: space-between;
   align-items: center;
   width: calc(100% - 4rem);
-  color: rgba(var(--color-foreground), 0.7);
 }
 
 predictive-search .spinner {
@@ -156,8 +154,8 @@ predictive-search[loading] .predictive-search__results-list:first-child {
 
 @media screen and (min-width: 750px) {
   .predictive-search__item--term {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -171,6 +169,8 @@ predictive-search[loading] .predictive-search__results-list:first-child {
 
 .predictive-search__image {
   grid-area: product-image;
-  object-fit: contain;
-  font-family: 'object-fit: contain';
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  font-family: 'object-fit: cover';
 }
