@@ -10,9 +10,12 @@
 {%- endstyle -%}
 
 
-<div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
+<div class="collection-hero{% if section.settings.show_collection_image and collection.metafields.custom.page_banner_image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-hero__inner page-width">
-    <div class="collection-hero__text-wrapper">
+    {%- if collection.metafields.custom.page_banner_image != blank -%}
+      <img class="collection-hero__image" src="{{ collection.metafields.custom.page_banner_image | file_img_url: 'large' }}" alt="Image">
+    {%- endif -%}
+    <!-- <div class="collection-hero__text-wrapper">
       <h1 class="collection-hero__title">
         <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
         {{- collection.title | escape -}}
@@ -40,7 +43,7 @@
           height="{{ collection.image.height }}"
         >
       </div>
-    {%- endif -%}
+    {%- endif -%} -->
   </div>
 </div>
 
