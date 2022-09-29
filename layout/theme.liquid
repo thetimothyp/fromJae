@@ -384,6 +384,7 @@ $(document).ready(function(){
     <style>
 svg.modal__toggle-open.icon.icon-search, svg.icon.icon-cart-empty {
     color: rgba(0,0,0,0.75);
+    transition: color 0.2s ease-in-out;
 }
       
       .button:not([disabled]):hover::after, .shopify-challenge__button:hover::after, .customer button:hover::after, .shopify-payment-button__button--unbranded:hover::after {
@@ -395,7 +396,11 @@ svg.modal__toggle-open.icon.icon-search, svg.icon.icon-cart-empty {
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)),0 0 0 calc(var(--buttons-border-width) + 1px) rgba(var(--color-button),var(--alpha-button-background));
 }
       svg.icon.icon-cart-empty:hover, svg.modal__toggle-open.icon.icon-search:hover {
-    color: rgba(0,0,0,0.6);
+        color: #A5586F;
+}
+
+.header__icon:hover .icon-search {
+        color: #A5586F !important;
 }
 
     </style>
