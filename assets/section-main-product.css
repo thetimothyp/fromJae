@@ -270,7 +270,7 @@ fieldset.product-form__input .form__label {
 
 .product-form__submit {
   margin-bottom: 1rem;
-  border: 1px solid #A5586F;
+  /* border: 1px solid #A5586F; */
   text-transform: uppercase;
 }
 

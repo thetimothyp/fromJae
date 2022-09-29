@@ -1,4 +1,4 @@
-f/* Color custom properties */
+/* Color custom properties */
 
 :root,
 .color-background-1 {
@@ -686,6 +686,7 @@ details > * {
 :root {
   --duration-short: 100ms;
   --duration-default: 200ms;
+  --duration-medium: 300ms;
   --duration-long: 500ms;
 }
 
@@ -1305,8 +1306,10 @@ button.shopify-payment-button__button--unbranded {
   font-size: 1.5rem;
   text-decoration: none;
   color: rgb(var(--color-button-text));
-  transition: box-shadow var(--duration-short) ease, opacity var(--duration-short) ease, background-color var(--duration-short) ease;
+  transition: box-shadow var(--duration-medium) ease, opacity var(--duration-medium) ease, background-color var(--duration-medium) ease;
   -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
