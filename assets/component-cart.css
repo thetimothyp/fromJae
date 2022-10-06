@@ -22,6 +22,10 @@ cart-items.is-empty .title-wrapper-with-link,
   margin-top: 24px;
 }
 
+.cart__warnings img {
+  width: 36rem;
+}
+
 .cart__warnings .button {
   text-transform: uppercase;
   padding: 0 9rem;
