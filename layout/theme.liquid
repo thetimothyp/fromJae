@@ -312,13 +312,18 @@
       }
       
     predictive-search[open] .predictive-search, predictive-search[loading] .predictive-search {
-    display: block;
-    z-index: 9999999;
-    background: #fff;
-    top: 46px;
-    width: 99.5%;
-    left: 1px;
-}
+        display: block;
+        z-index: 9999999;
+        background: #fff;
+    }
+
+    @media screen and (min-width: 750px) {
+      predictive-search[open] .predictive-search, predictive-search[loading] .predictive-search {
+        top: 46px;
+        width: 99.5%;
+        left: 1px;
+      }
+    }
       
       form.search .field {
     width: 100%;

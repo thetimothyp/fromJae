@@ -2518,8 +2518,14 @@ details[open] .modal-overlay::after {
 
 .search-modal__content .empty {
   width: 8rem;
-  display: block;
+  display: none;
   content: "";
+}
+
+@media screen and (min-width: 750px) {
+  .search-modal__content .empty {
+    display: block;
+  }
 }
 
 .search-modal__content-bottom {
@@ -2531,12 +2537,18 @@ details[open] .modal-overlay::after {
 }
 
 .search-modal__form {
-  width: 100%;
+  width: 90%;
+}
+
+@media screen and (min-width: 750px) {
+  .search-modal__form {
+    width: 100%;
+  }
 }
 
 .search-modal__close-button {
   position: absolute;
-  right: 0.3rem;
+  right: 1.8rem;
   text-decoration: none !important;
 }
 
