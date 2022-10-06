@@ -241,8 +241,6 @@ font-size: 14px;
 
 .menu-drawer .list-social {
   justify-content: flex-start;
-  margin-left: -1.25rem;
-  margin-top: 2rem;
 }
 
 .menu-drawer .list-social:empty {
