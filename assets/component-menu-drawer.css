@@ -155,11 +155,11 @@ font-size: 14px;
 .menu-drawer__menu-item:hover,
 .menu-drawer__close-button:hover {
   color: rgb(var(--color-foreground));
-  background-color: rgba(var(--color-foreground), 0.04);
+  background-color:  #F3EBEB;
 }
 
 .menu-drawer__menu-item--active:hover {
-  background-color: rgba(var(--color-foreground), 0.08);
+  background-color:  #F3EBEB;
 }
 
 .js .menu-drawer__menu-item .icon-caret,
@@ -216,7 +216,7 @@ font-size: 14px;
 
 .menu-drawer__utility-links {
   padding: 2rem;
-  background-color: rgba(var(--color-foreground), 0.03);
+  background-color: #F3EBEB;
 }
 
 .menu-drawer__account {
