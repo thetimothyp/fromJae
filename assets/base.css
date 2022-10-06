@@ -2746,7 +2746,13 @@ details[open]:hover > .header__menu-item {
 .header__submenu .header__menu-item {
   justify-content: space-between;
   padding: 0.8rem 2.4rem;
+  transition: color 300ms ease;
 }
+
+.header__submenu .header__menu-item:hover {
+  color: #A5586F;
+}
+
 .header__menu-item:hover {
   color: var(--color-foreground);
 }
