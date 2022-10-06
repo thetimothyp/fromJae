@@ -49,6 +49,23 @@ nav.pagination {
   text-decoration: none;
 }
 
+.pagination__item:not(.pagination__item-arrow) {
+  transition: background-color 300ms ease;
+  border-radius: 50%;
+}
+
+.pagination__item:not(.pagination__item-arrow, .pagination__item--current):hover {
+  background-color: #F3EBEB;
+}
+
+a.pagination__item-arrow {
+  transition: color 300ms ease;
+}
+
+a.pagination__item-arrow:hover {
+  color: #A5586F;
+}
+
 a.pagination__item:hover::after {
   height: 0.1rem;
 }
