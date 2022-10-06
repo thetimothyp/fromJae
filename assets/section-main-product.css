@@ -1095,6 +1095,7 @@ a.product__text {
   color: rgb(var(--color-base-text));
   cursor: pointer;
   background-color: transparent;
+  border-radius: 10px;
 }
 
 .thumbnail:hover {
@@ -1178,6 +1179,12 @@ a.product__text {
 
 .thumbnail-list__item {
   position: relative;
+}
+
+.thumbnail-list__item .thumbnail img {
+  object-fit: cover;
+  height: 100%;
+  min-width: 100%;
 }
 
 .thumbnail-list__item::before {
