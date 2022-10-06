@@ -258,6 +258,14 @@
                         </a>
                       </li>
                     {%- endif -%}
+                    {%- if settings.social_twitch_link != blank -%}
+                      <li class="list-social__item">
+                        <a href="{{ settings.social_twitch_link }}" class="link list-social__link" >
+                          {%- render 'icon-twitch' -%}
+                          <span class="visually-hidden">{{ 'general.social.links.twitch' | t }}</span>
+                        </a>
+                      </li>
+                    {%- endif -%}
                   </ul>
                 </div>
               </div>
