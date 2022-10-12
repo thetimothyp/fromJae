@@ -14,8 +14,23 @@
 
 fieldset.spr-form-contact {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   column-gap: 8px;
+}
+
+.spr-form-contact-name {
+  grid-column-start: 1;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 750px) {
+  fieldset.spr-form-contact {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .spr-form-contact-name {
+    margin-right: 48px;
+  }
 }
 
 .spr-form-input-text, .spr-form-input-email, .spr-form-input-textarea {
@@ -31,11 +46,6 @@ fieldset.spr-form-contact {
 .spr-form-input-textarea {
   font-family: 'Avenir Next', sans-serif;
   resize: none;
-}
-
-.spr-form-contact-name {
-  grid-column-start: 1;
-  margin-right: 48px;
 }
 
 .spr-review-header-byline {
@@ -61,6 +71,25 @@ fieldset.spr-form-contact {
   text-transform: uppercase;
   border-radius: 6px;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 749px) {
+  .spr-summary-actions {
+    position: relative;
+    right: auto;
+    top: auto;
+    display: block;
+    transform: none;
+    margin-top: 1rem;
+  }
+
+  .spr-starrating.spr-summary-starrating {
+    justify-content: center;
+  }
+
+  .spr-summary-actions-newreview:before, .spr-summary-actions-newreview:after {
+    display: inline;
+  }
 }
 
 .spr-review-reportreview {
