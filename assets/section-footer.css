@@ -162,6 +162,10 @@
   .footer-block.footer-block--menu:only-child {
     text-align: left;
   }
+
+  .footer-block--menu {
+    
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -456,9 +460,10 @@ noscript .localization-selector.link {
 
 .footer-block__details-content {
   margin-bottom: 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.footer-block__details-content li .list-menu__item--link {
+  padding: 0.2rem 0;
 }
 
 @media screen and (min-width: 750px) {

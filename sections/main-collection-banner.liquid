@@ -30,6 +30,9 @@
   </div>
   <div class="collection-hero__inner page-width {% if collection.metafields.custom.page_banner_image != blank %}collection__title-wrapper--custom{%else%}collection__title-wrapper{% endif %}">
     <h1 class="collection__title">{{ collection.title }}</h1>
+    {% if collection.metafields.custom.page_banner_image == blank %}
+      <h3 class="collection__product-count">{{ 'products.facets.product_count_simple' | t: count: collection.products_count }}</h3>
+    {% endif %}
   </div>
 </div>
 

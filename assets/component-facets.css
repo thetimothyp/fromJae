@@ -929,6 +929,12 @@ input.mobile-facets__checkbox {
   margin: 0;
 }
 
+@media screen and (max-width: 749px) {
+  .product-count__text {
+    display: none;
+  }
+}
+
 .product-count__text.loading {
   visibility: hidden;
 }
