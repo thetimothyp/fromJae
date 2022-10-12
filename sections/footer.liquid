@@ -250,12 +250,12 @@
             </ul>
           </div>
         {%- endif -%}
-        <div class="footer__copyright caption">
+        <div class="footer__copyright caption footer__copyright--desktop">
           <small class="copyright__content">Copyright &copy; {{ 'now' | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}</small>
           <small class="copyright__content"></small>
         </div>
       </div>
-      <div class="footer__column">
+      <div class="footer__column"> 
         {%- if section.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
             {%- if settings.social_twitter_link != blank -%}
@@ -340,6 +340,10 @@
             {%- endif -%}
           </ul>
         {%- endif -%}
+      </div>
+      <div class="footer__copyright caption footer__copyright--mobile">
+        <small class="copyright__content">Copyright &copy; {{ 'now' | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}</small>
+        <small class="copyright__content"></small>
       </div>
     </div>
   </div>
