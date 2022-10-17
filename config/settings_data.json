@@ -111,8 +111,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/MicrosoftTeams-image_2.png",
-          "logo_width": 150,
+          "logo": "shopify:\/\/shop_images\/Logo2.png",
+          "logo_width": 180,
           "logo_position": "top-center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
