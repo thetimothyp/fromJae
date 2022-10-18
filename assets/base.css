@@ -2308,6 +2308,12 @@ input[type='checkbox'] {
   line-height: 0;
 }
 
+@media screen and (max-width: 749px) {
+  .header__heading {
+    padding: 0;
+  }
+}
+
 .header > .header__heading-link {
   line-height: 0;
 }
