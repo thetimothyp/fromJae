@@ -4,10 +4,14 @@
       "type": "main-list-collections",
       "settings": {
         "title": "Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square"
+        "sort": "date_reversed",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "columns_mobile": "2"
       }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
