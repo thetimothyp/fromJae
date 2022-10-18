@@ -190,6 +190,10 @@
 
 /* base */
 
+main {
+  animation: fadeIn 400ms;
+}
+
 .no-js:not(html) {
   display: none !important;
 }
@@ -3008,4 +3012,13 @@ details-disclosure > details {
 }
 .act:hover {
   border-bottom: 2px solid #a5586f;
+}
+
+@keyframes fadeIn {
+  0% { 
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1;
+  }
 }
