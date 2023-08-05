@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Welcome to our cozy space!",
+            "heading": "Next Update: 8\/6\/2023 | 11AM PST",
             "heading_size": "h2"
           }
         },
         "759be026-53dd-4c15-a559-62cace49b316": {
           "type": "text",
           "settings": {
-            "text": "Update 12\/3\/2022: Froggo keycaps and cat loaves 🧡",
+            "text": "Kit-tea keycaps collection",
             "text_style": "body"
           }
         },
@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_0763_-_Copy.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_4178.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
