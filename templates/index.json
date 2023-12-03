@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Next Update: 8\/6\/2023 | 11AM PST",
+            "heading": "12\/03\/2023 Update - Cozy Apparels",
             "heading_size": "h2"
           }
         },
         "759be026-53dd-4c15-a559-62cace49b316": {
           "type": "text",
           "settings": {
-            "text": "Kit-tea keycaps collection",
+            "text": "Travel Buddy Ita Bags & More!",
             "text_style": "body"
           }
         },
@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_4178_31e4ab94-43a1-4252-85fa-289d9a7d0c6d.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_1057-2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
