@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "3\/15\/2024 Update",
+            "heading": "9\/20\/2024 Update",
             "heading_size": "h2"
           }
         },
         "759be026-53dd-4c15-a559-62cace49b316": {
           "type": "text",
           "settings": {
-            "text": "Spring 2024 keycaps, pins, and apparels!",
+            "text": "Handcrafted jewelry and a cozy centerpiece",
             "text_style": "body"
           }
         },
@@ -44,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_1199.jpg",
+        "image": "shopify:\/\/shop_images\/Cover.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
