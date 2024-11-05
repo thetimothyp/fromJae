@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "9\/20\/2024 Update",
+            "heading": "11/5/2024 Update",
             "heading_size": "h2"
           }
         },
         "759be026-53dd-4c15-a559-62cace49b316": {
           "type": "text",
           "settings": {
-            "text": "Handcrafted jewelry and a cozy centerpiece",
+            "text": "New fall keycaps, stationery, and accessories!",
             "text_style": "body"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NEW ARRIVALS",
-            "button_link_1": "shopify:\/\/collections\/new",
+            "button_link_1": "shopify://collections/new",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cover.png",
+        "image": "shopify://shop_images/IMG1711.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
