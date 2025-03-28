@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Happy Winter 2024 ❄️",
+            "heading": "Welcome to Spring 2025 🌸",
             "heading_size": "h2"
           }
         },
@@ -44,9 +44,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/IMG_1707_c733bff1-8a32-4630-bea1-3532b763b081.jpg",
+        "image": "shopify://shop_images/springbanner.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -61,7 +61,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "FEATURED",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
