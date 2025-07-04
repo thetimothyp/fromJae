@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Spring 2025 Collection",
+            "heading": "July 2025 Mini Update",
             "heading_size": "h2"
           }
         },
         "759be026-53dd-4c15-a559-62cace49b316": {
           "type": "text",
           "settings": {
-            "text": "Where softness blooms🌸",
+            "text": "Peep the summer glow! ☀️",
             "text_style": "body"
           }
         },
@@ -44,7 +44,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/springbanner.png",
+        "image": "shopify://shop_images/DSCF0467.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
