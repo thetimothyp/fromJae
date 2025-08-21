@@ -24,6 +24,17 @@
           "type": "subtotal",
           "settings": {}
         },
+        "flex_pay_bnpl_messaging_flexpay_cart_pricing_bqr8UJ": {
+          "type": "shopify://apps/flex-pay-bnpl-messaging/blocks/flexpay_cart_pricing/52c1f8d0-6784-4ecd-a2f6-cbe635f090ac",
+          "settings": {
+            "text_alignment": "left",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "custom_cart_selector": "",
+            "min_amount": 10,
+            "max_amount": 15000
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {}
@@ -31,6 +42,7 @@
       },
       "block_order": [
         "subtotal",
+        "flex_pay_bnpl_messaging_flexpay_cart_pricing_bqr8UJ",
         "buttons"
       ],
       "settings": {
