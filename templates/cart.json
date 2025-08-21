@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cart-items": {
@@ -13,17 +22,27 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
+          "settings": {}
+        },
+        "flex_pay_bnpl_messaging_flexpay_cart_pricing_Qa7gTq": {
+          "type": "shopify://apps/flex-pay-bnpl-messaging/blocks/flexpay_cart_pricing/52c1f8d0-6784-4ecd-a2f6-cbe635f090ac",
           "settings": {
+            "text_alignment": "left",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "custom_cart_selector": "",
+            "min_amount": 100,
+            "max_amount": 15000
           }
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "subtotal",
+        "flex_pay_bnpl_messaging_flexpay_cart_pricing_Qa7gTq",
         "buttons"
       ],
       "settings": {
@@ -35,15 +54,22 @@
       "settings": {
         "title": "You may also like",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 4,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,

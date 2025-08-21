@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,8 +22,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -25,17 +33,15 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
-        "a9cd480b-20e4-496d-8f10-ddea30c056b9": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+        "flex_pay_bnpl_messaging_flexpay_product_pricing_FkPdFG": {
+          "type": "shopify://apps/flex-pay-bnpl-messaging/blocks/flexpay_product_pricing/52c1f8d0-6784-4ecd-a2f6-cbe635f090ac",
           "settings": {
-            "stars_fill_color": "#a5586f",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
+            "text_alignment": "left",
+            "custom_price_selector": "",
+            "min_amount": 10,
+            "max_amount": 15000
           }
         },
         "variant_picker": {
@@ -46,8 +52,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -57,15 +62,14 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "SHIPPING & PROCESSING",
             "icon": "none",
-            "content": "<p><strong>Processing Time<\/strong><\/p><p>2-3 weeks<\/p><p>Because of the nature of our small business, we often have 1-2 people working on orders. Please be patient as we prep your packages!<\/p><p><\/p><p><strong>Return & Exchange<\/strong><\/p><p>Due to low-volume and COVID-19 difficulties, we will not be accepting returns.<\/p><p><br\/>A 1-time size exchange will be available for each purchase at your own shipping cost. Please message me so to purchase 2 shipping slips for return and exchange.<\/p>",
+            "content": "<p><strong>Processing Time</strong></p><p>2-3 weeks</p><p>Because of the nature of our small business, we often have 1-2 people working on orders. Please be patient as we prep your packages!</p><p></p><p><strong>Return & Exchange</strong></p><p>Due to low-volume and COVID-19 difficulties, we will not be accepting returns.</p><p><br/>A 1-time size exchange will be available for each purchase at your own shipping cost. Please message me so to purchase 2 shipping slips for return and exchange.</p>",
             "page": ""
           }
         }
@@ -75,7 +79,7 @@
         "title",
         "caption",
         "price",
-        "a9cd480b-20e4-496d-8f10-ddea30c056b9",
+        "flex_pay_bnpl_messaging_flexpay_product_pricing_FkPdFG",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -95,16 +99,6 @@
     },
     "1660155654345e8238": {
       "type": "apps",
-      "blocks": {
-        "f4361ac5-4504-4d12-a0e2-a7071f0c7c48": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "f4361ac5-4504-4d12-a0e2-a7071f0c7c48"
-      ],
       "settings": {
         "include_margins": true
       }
