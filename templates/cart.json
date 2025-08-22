@@ -26,6 +26,7 @@
         },
         "flex_pay_bnpl_messaging_flexpay_cart_pricing_bqr8UJ": {
           "type": "shopify://apps/flex-pay-bnpl-messaging/blocks/flexpay_cart_pricing/52c1f8d0-6784-4ecd-a2f6-cbe635f090ac",
+          "disabled": true,
           "settings": {
             "text_alignment": "right",
             "margin_top": 0,

@@ -41,6 +41,7 @@
       "blocks": {
         "flex_pay_bnpl_messaging_flexpay_collection_pricing_PkK97M": {
           "type": "shopify://apps/flex-pay-bnpl-messaging/blocks/flexpay_collection_pricing/52c1f8d0-6784-4ecd-a2f6-cbe635f090ac",
+          "disabled": true,
           "settings": {
             "text_alignment": "left",
             "margin_top": 0,
