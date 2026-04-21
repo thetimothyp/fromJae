@@ -1,20 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    <script>
-    /* Smooth animation for Judge.me filter panel open/close
-      Intercepts filter button clicks and adds CSS transition
-      before Judge.me toggles the panel visibility */
-    document.addEventListener('click', function(e) {
-      if (e.target.closest('[class*="filter"]')) {
-        const panel = document.querySelector('.jm-filter-panel');
-        if (panel) {
-          /* Apply transition for max-height and opacity */
-          panel.style.transition = 'max-height 0.3s ease, opacity 0.3s ease';
-        }
-      }
-    });
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
