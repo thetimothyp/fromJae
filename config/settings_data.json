@@ -411,5 +411,19 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Stars & border */.jm-star-rating__font-icon{font-size:16px!important}",
+      ".jm-review-widget{border:1px solid #E1E1E1;border-radius:8px;padding:24px}",
+      "/* Header */.jm-review-widget__header{border-bottom:1px solid #E1E1E1;padding-bottom:16px;margin-bottom:16px}",
+      ".jm-review-widget__header .jm-cluster{align-items:flex-start!important}",
+      ".jm-review-widget__header .jm-cluster>.jm-text{font-size:18px!important}",
+      "/* Filter */.jm-review-widget__header:has(.jm-filter-panel){border-bottom:none!important}",
+      ".jdgm-review-widget .jm-filter-panel{border-block-end:none!important;padding-block-end:0!important}",
+      "/* Empty state */.jm-review-widget:not(:has(.jm-review-item)) .jm-review-widget__header{border-bottom:none!important;padding-bottom:0!important;margin-bottom:0}",
+      "/* Last review */.jm-review-item:last-child{border-block-end:none!important;padding-block-end:0!important}",
+      ".jdgm-paginate~* .jm-review-item:last-child,.jdgm-paginate+.jm-review-item:last-child{border-block-end:1px solid #E1E1E1!important;padding-block-end:24px!important}"
+    ]
   }
 }
