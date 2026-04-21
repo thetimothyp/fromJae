@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -86,32 +95,31 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/from.jae\/",
-    "social_tiktok_link": "https:\/\/tiktok.com\/",
+    "social_instagram_link": "https://www.instagram.com/from.jae/",
+    "social_tiktok_link": "https://tiktok.com/",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "social_twitch_link": "https:\/\/twitch.tv\/from_jae\/",
+    "social_twitch_link": "https://twitch.tv/from_jae/",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "favicon": "shopify://shop_images/favicon.png",
     "currency_code_enabled": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/MicrosoftTeams-image_2.png",
+    "checkout_logo_image": "shopify://shop_images/MicrosoftTeams-image_2.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/logo_66e8b071-2f3d-4dd7-9240-98a0bf1f701e.png",
+          "logo": "shopify://shop_images/logo_66e8b071-2f3d-4dd7-9240-98a0bf1f701e.png",
           "logo_width": 190,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -175,7 +183,7 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/MicrosoftTeams-image_2_06ea06f4-9482-45f8-a2d2-75d407da5fc8.png",
+          "logo": "shopify://shop_images/MicrosoftTeams-image_2_06ea06f4-9482-45f8-a2d2-75d407da5fc8.png",
           "logo_max_width": 110,
           "color_scheme": "background-1"
         }
@@ -205,10 +213,14 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -327,8 +339,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -363,7 +374,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
