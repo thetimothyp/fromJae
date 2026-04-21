@@ -109,7 +109,8 @@
         "judge_me_reviews_review_widget_zJTGKt"
       ],
       "custom_css": [
-        ".jm-review-widget {margin-top: 16px; padding-top: 24px !important; padding-bottom: 24px !important;}"
+        ".jm-review-widget {margin-top: 16px; padding-top: 24px !important; padding-bottom: 24px !important;}",
+        ".jm-review-widget{border:1px solid #E1E1E1;border-radius:8px;padding:24px}"
       ],
       "settings": {
         "include_margins": true
