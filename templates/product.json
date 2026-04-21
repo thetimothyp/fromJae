@@ -45,16 +45,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "flex_pay_bnpl_messaging_flexpay_product_pricing_zE8MbY": {
-          "type": "shopify://apps/flex-pay-bnpl-messaging/blocks/flexpay_product_pricing/52c1f8d0-6784-4ecd-a2f6-cbe635f090ac",
-          "disabled": true,
-          "settings": {
-            "text_alignment": "left",
-            "custom_price_selector": "",
-            "min_amount": 10,
-            "max_amount": 15000
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -82,7 +72,6 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "flex_pay_bnpl_messaging_flexpay_product_pricing_zE8MbY",
         "buy_buttons",
         "description",
         "collapsible-row-1"
@@ -96,12 +85,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "1660155654345e8238": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
       }
     },
     "product-recommendations": {
@@ -120,11 +103,17 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1776730874440d4686": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "1660155654345e8238",
-    "product-recommendations"
+    "product-recommendations",
+    "1776730874440d4686"
   ]
 }
