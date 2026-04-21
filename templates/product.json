@@ -98,7 +98,7 @@
         "judge_me_reviews_review_widget_zJTGKt": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "review_data": "sample_data",
+            "review_data": "no_reviews",
             "max_width": 1200,
             "show_shop_reviews": false,
             "empty_state": "empty_widget"
@@ -109,8 +109,8 @@
         "judge_me_reviews_review_widget_zJTGKt"
       ],
       "custom_css": [
-        ".jm-review-widget{border:1px solid #E1E1E1;border-radius:8px;padding:24px;margin-top:16px}",
-        ".jm-review-widget:not(:has(.jm-review-item)){padding:16px 24px}"
+        ".jm-review-widget {border: 1px solid #e1e1e1; border-radius: 8px; padding: 24px; margin-top: 16px;}",
+        ".jm-review-widget:not(:has(.jm-review-item)) {padding-top: 16px; padding-bottom: 8px;}"
       ],
       "settings": {
         "include_margins": true
